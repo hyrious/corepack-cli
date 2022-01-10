@@ -1,0 +1,19 @@
+{
+  "name": "@hyrious/corepack-cli",
+  "version": "0.1.0",
+  "description": "Some helpful scripts when using corepack.",
+  "type": "module",
+  "exports": "./index.js",
+  "bin": "./bin.js",
+  "scripts": {
+    "test": "node bin.js"
+  },
+  "keywords": [
+    "corepack"
+  ],
+  "author": "hyrious <hyrious@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  }
+}
