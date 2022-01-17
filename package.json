@@ -1,6 +1,6 @@
 {
   "name": "@hyrious/corepack-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Some helpful scripts when using corepack.",
   "type": "module",
   "exports": "./index.js",
