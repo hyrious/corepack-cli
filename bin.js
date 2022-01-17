@@ -45,6 +45,7 @@ if (command === "prepare-latest") {
         process.exit(
           spawnSync("corepack", ["prepare", fullName, "--activate"], {
             stdio: "inherit",
+            shell: process.platform === "win32",
           }).status || 0
         );
       }
